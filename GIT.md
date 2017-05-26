@@ -1,4 +1,4 @@
-__git checkout__ 'filr name'
+__git checkout 'file name'__
 > - Откатывает все изменения в указанном файле до состояния последнего коммита.
 ---
 __git log__ 
