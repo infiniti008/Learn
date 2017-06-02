@@ -1,0 +1,9 @@
+#!/bin/sh
+case $1 in
+	start)
+		screen -dmS weblearn git webui --repo-root /home/android/work/learn --port 3003
+	;;
+	stop)
+		 screen -X -S weblearn quit
+	;;
+esac
